@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "incremental": true,
-    "jsx": "preserve",
+    "outDir": "lib",
+    "declaration": true,
+    "jsx": "react",
     "lib": [
       "dom",
       "esnext"
     ],
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "preserveConstEnums": true,
@@ -19,8 +19,7 @@
     "target": "esnext",
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true
+    "resolveJsonModule": true
   },
   "exclude": [
     "node_modules"

@@ -1,10 +1,11 @@
 {
   "name": "engineering",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "author": "lnwu <wind2729@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .tsx,.ts"
   },
