@@ -22,6 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: install, build, and publish
       run: |
+        npm config set //npm.pkg.github.com/:_authToken=${GITHUB_PUBLISH_TOKEN}
         yarn
         yarn build
         yarn publish
