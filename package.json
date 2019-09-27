@@ -1,6 +1,6 @@
 {
-  "name": "engineering",
-  "version": "1.0.0",
+  "name": "@lnwu/autocomplete",
+  "version": "1.0.1",
   "main": "./lib/index.js",
   "author": "lnwu <wind2729@gmail.com>",
   "license": "MIT",
@@ -25,6 +25,9 @@
   },
   "dependencies": {
     "react": "^16.9.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
