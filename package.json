@@ -6,8 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "test": "GITHUB_PUBLISH_TOKEN='' jest",
-    "lint": "GITHUB_PUBLISH_TOKEN='' eslint . --ext .tsx,.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .tsx,.ts",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
