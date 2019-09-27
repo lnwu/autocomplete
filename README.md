@@ -18,7 +18,7 @@ See: https://github.com/lnwu/autocomplete/actions
 - [ ] Component Style
 - [x] Lint
 - [x] Test
-- [ ] Storybook Docs
+- [x] Storybook Docs
 - [x] Publish Package
 
 TODO:  
