@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import { DataType } from "../common/interface/DataType"
-import AutocompleteDropDown from "../AutocompleteDropDown"
 import { useMatchedDropdownData } from "./hooks/useMatchedDropdownData"
 import { useDropDownOpen } from "./hooks/useDropDownOpen"
+import AutocompleteDropDown from "./components/AutocompleteDropDown"
 
 export interface AutocompleteProps {
   data: DataType[]

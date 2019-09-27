@@ -1,6 +1,6 @@
 import React from "react"
-import { DataType } from "../common/interface/DataType"
 import DorpDownOption from "../DorpDownOption"
+import { DataType } from "../../../common/interface/DataType"
 
 export interface AutocompleteDropDownProps {
   data: DataType[]
