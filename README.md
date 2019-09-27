@@ -14,12 +14,12 @@ See: https://github.com/lnwu/autocomplete/actions
 
 ### Tasks
 
-- [x]: Component Feature
-- []: Component Style
-- [x]: Lint
-- [x]: Test
-- []: Storybook Docs
-- [x]: Publish Package
+- [x] Mercury
+- [ ] Component Style
+- [x] Lint
+- [x] Test
+- [ ] Storybook Docs
+- [x] Publish Package
 
 TODO:  
 For now publish will failed with `yarn publish --patch` no git config setting but publish success  
