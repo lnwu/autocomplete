@@ -25,7 +25,7 @@ jobs:
         npm config set //npm.pkg.github.com/:_authToken=${GITHUB_PUBLISH_TOKEN}
         yarn
         yarn build
-        yarn publish
+        yarn publish --patch
       env:
         CI: true
         GITHUB_PUBLISH_TOKEN: ${{ secrets.GITHUB_PUBLISH_TOKEN }}
