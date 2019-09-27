@@ -14,7 +14,7 @@ See: https://github.com/lnwu/autocomplete/actions
 
 ### Tasks
 
-- [x] Mercury
+- [x] Component Feature
 - [ ] Component Style
 - [x] Lint
 - [x] Test
