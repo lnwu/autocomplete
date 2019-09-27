@@ -1,6 +1,6 @@
 {
   "name": "@lnwu/autocomplete",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./lib/index.js",
   "author": "lnwu <wind2729@gmail.com>",
   "license": "MIT",
