@@ -1,5 +1,7 @@
 ### React Autocomplete
 
+A react autocomplete component.
+
 ### Package
 
 See: https://github.com/lnwu/autocomplete/packages/27897
@@ -8,6 +10,16 @@ See: https://github.com/lnwu/autocomplete/packages/27897
 
 Using github actions.  
 See: https://github.com/lnwu/autocomplete/actions
+
+
+### Tasks
+
+- [x]: Component Feature
+- []: Component Style
+- [x]: Lint
+- [x]: Test
+- []: Storybook Docs
+- [x]: Publish Package
 
 TODO:  
 For now publish will failed with `yarn publish --patch` no git config setting but publish success  
