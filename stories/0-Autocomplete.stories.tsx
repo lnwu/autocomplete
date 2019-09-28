@@ -6,13 +6,6 @@ export default {
   title: "Autocomplete"
 }
 
-export const TriggerTextChange = () => (
-  <Autocomplete
-    data={[{ text: "text1" }, { text: "text2" }]}
-    onChange={action("input")}
-  />
-)
-
 export const MatchedDropdown = () => (
   <Autocomplete
     data={[
@@ -23,5 +16,12 @@ export const MatchedDropdown = () => (
     ]}
     onChange={action("input")}
     placeholder="input 1/2/3/4"
+  />
+)
+
+export const TriggerTextChange = () => (
+  <Autocomplete
+    data={[{ text: "text1" }, { text: "text2" }]}
+    onChange={action("input")}
   />
 )
