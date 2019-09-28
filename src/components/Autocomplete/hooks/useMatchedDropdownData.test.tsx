@@ -38,4 +38,22 @@ describe("useMatchedDropdownData", () => {
     const container = mount(<FakeComponent />)
     expect(container.find("li")).toHaveLength(0)
   })
+
+  test("should return empty list when matching text is same as original data", () => {
+    const FakeComponent = () => {
+      const matchedData = useMatchedDropdownData(
+        [{ text: "text1" }, { text: "text2" }],
+        "text1"
+      )
+      return (
+        <ul>
+          {matchedData.map(data => (
+            <li key={data.text}>{data.text}</li>
+          ))}
+        </ul>
+      )
+    }
+    const container = mount(<FakeComponent />)
+    expect(container.find("li")).toHaveLength(0)
+  })
 })

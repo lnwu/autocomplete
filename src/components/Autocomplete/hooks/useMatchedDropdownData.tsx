@@ -4,5 +4,9 @@ export const useMatchedDropdownData = (
   originalData: DataType[],
   text: string
 ): DataType[] => {
-  return originalData.filter(item => item.text.trim().includes(text.trim()))
+  return originalData.filter(item => {
+    const data = item.text.trim()
+    const inputText = text.trim()
+    return data.includes(inputText) && data !== inputText
+  })
 }
