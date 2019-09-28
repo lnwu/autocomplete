@@ -3,6 +3,10 @@
   line-height: 30px;
   font-size: inherit;
   border-bottom: 1px solid #ccc;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .autocomplete-drop-down-option:last-child {
