@@ -1,0 +1,14 @@
+.autocomplete-wrapper {
+  position: relative;
+  font-size: 14px;
+}
+
+.autocomplete-input-box {
+  padding: 4px 8px;
+  line-height: 20px;
+  height: 20px;
+  border: none;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  font-size: inherit;
+}

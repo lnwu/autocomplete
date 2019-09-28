@@ -1,6 +1,7 @@
 import React from "react"
 import DorpDownOption from "../DorpDownOption"
 import { DataType } from "../../../common/interface/DataType"
+import "./AutocompleteDropDown.style.css"
 
 export interface AutocompleteDropDownProps {
   data: DataType[]
@@ -20,7 +21,7 @@ const AutocompleteDropDown: React.FC<AutocompleteDropDownProps> = ({
       <DorpDownOption key={index} onClick={handleSelect} text={item.text} />
     )
   })
-  return <ul>{list}</ul>
+  return <ul className="autocomplete-drop-down">{list}</ul>
 }
 
 export default React.memo(AutocompleteDropDown)

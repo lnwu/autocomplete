@@ -3,6 +3,7 @@ import { DataType } from "../common/interface/DataType"
 import { useMatchedDropdownData } from "./hooks/useMatchedDropdownData"
 import { useDropDownOpen } from "./hooks/useDropDownOpen"
 import AutocompleteDropDown from "./components/AutocompleteDropDown"
+import "./Autocomplete.style.css"
 
 export interface AutocompleteProps {
   data: DataType[]
@@ -25,8 +26,9 @@ const Autocomplete: React.FC<AutocompleteProps> = ({
   }, [currentText, onChange])
 
   return (
-    <div>
+    <div className="autocomplete-wrapper">
       <input
+        className="autocomplete-input-box"
         type="text"
         value={currentText}
         onChange={e => setCurrentText(e.target.value)}

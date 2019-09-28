@@ -1,0 +1,15 @@
+.autocomplete-drop-down-option {
+  padding: 0 8px;
+  line-height: 30px;
+  font-size: inherit;
+  border-bottom: 1px solid #ccc;
+}
+
+.autocomplete-drop-down-option:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-drop-down-option:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}

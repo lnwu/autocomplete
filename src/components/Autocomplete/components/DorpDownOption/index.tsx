@@ -1,4 +1,5 @@
 import React from "react"
+import "./DorpDownOption.style.css"
 
 export interface DorpDownOptionProps {
   text: string
@@ -6,7 +7,11 @@ export interface DorpDownOptionProps {
 }
 
 const DorpDownOption: React.FC<DorpDownOptionProps> = ({ text, onClick }) => {
-  return <li onClick={() => onClick(text)}>{text}</li>
+  return (
+    <li className="autocomplete-drop-down-option" onClick={() => onClick(text)}>
+      {text}
+    </li>
+  )
 }
 
 export default React.memo(DorpDownOption)
