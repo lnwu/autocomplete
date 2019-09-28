@@ -17,16 +17,17 @@ const Autocomplete: React.FC<AutocompleteProps> = ({
   placeholder
 }) => {
   const [currentText, setCurrentText] = useState("")
+  const wrapperNode = React.useRef<HTMLDivElement>(null)
 
   const matchedData = useMatchedDropdownData(data, currentText)
-  const showDropDown = useDropDownOpen(matchedData, currentText)
+  const showDropDown = useDropDownOpen(matchedData, currentText, wrapperNode)
 
   useEffect(() => {
     currentText && onChange(currentText)
   }, [currentText, onChange])
 
   return (
-    <div className="autocomplete-wrapper">
+    <div className="autocomplete-wrapper" ref={wrapperNode}>
       <input
         className="autocomplete-input-box"
         type="text"
