@@ -25,10 +25,8 @@ See: https://github.com/lnwu/autocomplete/actions
 - [x] Storybook Docs
 - [x] Publish Package
 
-TODO:  
-1. For now publish will failed with `yarn publish --patch` no git config setting but publish success  
-Need to use `yarn publish --new-version ${GIT_TAG}`  
-Need to define `GIT_TAG var in CI`  
+KNOWN ISSUES:  
+1. For now publish will failed with `yarn publish --patch` no git config setting but publish success May need to use `yarn publish --new-version ${GIT_TAG}`  
 
 2. Fix skipped test  
 
