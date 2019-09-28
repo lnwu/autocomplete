@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint . --ext .tsx,.ts",
     "storybook": "start-storybook -p 6006",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy:doc": "storybook-to-ghpages"
   },
   "husky": {
     "hooks": {
