@@ -20,6 +20,6 @@ jobs:
     - name: install and deploy
       run: |
         yarn
-        yarn deploy:doc
+        # yarn deploy:doc
       env:
         CI: true

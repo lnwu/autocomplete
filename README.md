@@ -30,4 +30,6 @@ TODO:
 Need to use `yarn publish --new-version ${GIT_TAG}`  
 Need to define `GIT_TAG var in CI`  
 
-2. Fix skipped test
+2. Fix skipped test  
+
+3. Fix docs deploy in CI
