@@ -1,5 +1,7 @@
 ### React Autocomplete
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lnwu/autocomplete.svg)](https://greenkeeper.io/)
+
 A react autocomplete component.
 
 ### Package
